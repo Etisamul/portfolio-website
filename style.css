@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header-main-container {
+  background-color: rgb(17 24 39);
+  color: #fff;
+  height: 60vh;
+}
+
+.header_container .top_nav h3 {
+  font-size: 24px;
+}
+.header_container .top_nav .navBar_container {
+}
+.header_container .top_nav .navBar_container .mobile_nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_container .top_nav .navBar_container .large_screenNav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.header_container .top_nav .navBar_container .large_screenNav ul li {
+  margin-left: 16px;
+}
+.header_container .banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+  line-height: 60px;
+}
+.header_container .banner h1 {
+  font-size: 60px;
+}
+.header_container .banner h6 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.header_container .banner .Banner-button a {
+  padding: 11px 16px;
+  border-radius: 5px;
+}
+.header_container .banner .Banner-button a:first-child {
+  background-color: #4f46e5;
+  color: #fff;
+  margin-right: 1rem;
+}
+.header_container .banner .Banner-button a:last-child {
+  border: 1px solid #4f46e5;
+}
+
+.about-N-skills-container {
+  padding: 50px 0px;
+}
+
+.about-N-skills-container .about span {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 16px;
+  color: #09090b;
+  font-weight: bold;
+}
+.about-N-skills-container .about p,
+.about-N-skills-container .skills-n-experience .Experience p {
+  color: #374151;
+  margin-bottom: 32px;
+}
+
+.about-N-skills-container .skills-n-experience .skills b,
+.about-N-skills-container .skills-n-experience .Experience b {
+  font-size: 24px;
+}
+.about-N-skills-container .skills-n-experience .skills ul {
+  margin-top: 10px;
+  margin-left: 1.6rem;
+  color: #09090b;
+  list-style-type: inherit;
+}
+
+.about-N-skills-container .skills-n-experience .Experience p {
+  margin-top: 10px;
+}
+
+.my_skills_container {
+  background-color: #f3f4f6;
+  padding: 50px;
+}
+
+.my_skills_container .my_skills p {
+  color: #09090b;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.my_skills_container .my_skills .skills_container .s-item {
+  background-color: #fff;
+  margin-bottom: 1.7rem;
+  padding: 1.5rem;
+  box-shadow: -1px 2px 12px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.my_skills_container .my_skills .skills_container .s-item span {
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 24px;
+  color: #09090b;
+  font-weight: 700;
+}
+.my_skills_container .my_skills .skills_container .s-item p {
+  color: #374151;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.myprojects {
+  background-color: #fff;
+  padding: 50px 0px;
+}
+.myprojects .heading p,
+.contact_container .contact .cheading p {
+  color: #09090b;
+  font-size: 36px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.myprojects .projects_container .project {
+  margin-bottom: 2rem;
+  padding: 1.7rem;
+  box-shadow: -1px 2px 12px -7px rgba(0, 0, 0, 0.75);
+  background-color: #f3f4f6;
+}
+.myprojects .projects_container .project img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+.myprojects .projects_container .project h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #09090b;
+}
+.myprojects .projects_container .project p {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 1.7rem;
+}
+
+.myprojects .projects_container .project .p-button a:first-child {
+  color: #fff;
+  background-color: #4f46e5;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.myprojects .projects_container .project .p-button a:last-child {
+  color: #4f46e5;
+  padding: 8px 16px;
+  border: 1px solid #4f46e5;
+  border-radius: 5px;
+}
+.contact_container {
+  background-color: #f3f4f6;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.contact_container .contact .contact_form {
+  border-radius: 5px;
+}
+.contact_container .contact .contact_form form {
+  color: #09090b;
+  font-size: 14px;
+  padding: 32px 0px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: -1px 2px 12px -7px rgba(0, 0, 0, 0.75);
+}
+.contact_container .contact .contact_form form label {
+  color: #09090b;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+  margin-left: 14%;
+}
+
+.contact_container .contact .contact_form form input,
+textarea {
+  padding: 8px 12px;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  width: 70%;
+}
+.contact_container .contact .contact_form form textarea {
+  margin-bottom: 24px;
+  height: 100px;
+}
+
+.contact_container .contact .contact_form form input[type="submit"] {
+  color: #fafafa;
+  font-size: 14px;
+  padding: 8px 16px;
+  background-color: #18181b;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #111827;
+}
+.footer-container {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+.footer .text {
+}
+.footer .social {
+}
+.footer .social i {
+  margin-left: 0.5rem;
+}
+
+.header_container,
+.about-N-skills-container,
+.myprojects,
+.contact_container,
+.footer {
+  padding: 5%;
+}
+
+@media screen and (max-width: 576px) {
+  .large_screenNav {
+    visibility: hidden;
+  }
+  .top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projects_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects_container .project {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .large_screenNav {
+    visibility: visible;
+  }
+  .mobile_nav {
+    visibility: hidden;
+  }
+  .top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .skills-n-experience {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Experience {
+    width: 50%;
+  }
+
+  .skills_container,
+  .projects_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .s-item,
+  .project {
+    flex-basis: 49%;
+    box-sizing: border-box;
+  }
+
+  .p-button {
+    line-height: 44px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .s-item,
+  .project {
+    flex-basis: 32%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .header_container,
+  .about-N-skills-container,
+  .myprojects,
+  .contact,
+  .footer-container,
+  .my_skills {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  .header-main-container {
+    height: 80vh;
+  }
+}
